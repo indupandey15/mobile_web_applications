@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My New Website - Home</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation Bar (Same for all pages) -->
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">
+            <img src="logo.png" alt="Logo" width="40" height="40" class="d-inline-block align-top">
+            My New Website
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html">About</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Services
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="services.html">All Services</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Service 1</a>
+                        <a class="dropdown-item" href="#">Service 2</a>
+                        <a class="dropdown-item" href="#">Service 3</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Home Page Content -->
+    <header class="header">
+        <div class="container text-center">
+            <h1>Welcome to My New Website</h1>
+            <p>Discover the World of Creativity.</p>
+            
+            <!-- Bootstrap Components -->
+            <div class="row mt-5">
+                <!-- Feature Section 1 -->
+                <div class="col-md-4">
+                    <div class="feature-card">
+                        <img src="image1.jpg" class="card-img-top" alt="Hath Yoga">
+                        <div class="card-body">
+                            <h5 class="card-title">Feature 1</h5>
+                            <p class="card-text">Hatha is a general category that includes most yoga styles. It is an old system that includes the practice of asanas (yoga postures) and pranayama (breathing exercises), which help bring peace to the mind and body, preparing the body for deeper spiritual practices such as meditaton..</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Feature Section 2 -->
+                <div class="col-md-4">
+                    <div class="feature-card">
+                        <img src="image2.jpg" class="card-img-top" alt="Vinyasa Yoga">
+                        <div class="card-body">
+                            <h5 class="card-title">Feature 2</h5>
+                            <p class="card-text"> Vinyasa yoga is a creative form of yoga where poses are linked together with the breath in a flowing sequence. The beauty of Vinyasa yoga is the variety. There is no standard sequence in Vinyasa yoga, so the style, pace and intensity will all vary depending on the teacher.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Feature Section 3 -->
+                <div class="col-md-4">
+                    <div class="feature-card">
+                        <img src="image3.jpg" class="card-img-top" alt="Meditation Yoga">
+                        <div class="card-body">
+                            <h5 class="card-title">Feature 3</h5>
+                            <p class="card-text">
+                                Meditation or “dhyana” is also a part of yoga. Like the physical practice of yoga, dhyana also forms a profound connection with the universe by doing mental exercises to bring you to a higher state of consciousness. This connection happens in savasana when you are in a meditative, peaceful state.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Bootstrap JavaScript and jQuery (Place these before closing </body> tag) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
+

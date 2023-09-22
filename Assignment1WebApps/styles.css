@@ -1,0 +1,78 @@
+/* Global Styles */
+
+/* Body Styles */
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Header Styles */
+.header {
+    background-color: #f7f7f7;
+    padding: 60px 0;
+    text-align: center;
+}
+
+.header h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.header p {
+    font-size: 18px;
+    color: #777;
+}
+
+/* Navigation Bar Styles */
+.navbar {
+    border-bottom: 4px solid #17a2b8;
+}
+
+.navbar-brand img {
+    margin-right: 10px;
+}
+
+.navbar-brand {
+    font-size: 24px;
+}
+
+.navbar-nav .nav-link {
+    font-size: 18px;
+    margin-right: 20px;
+}
+
+/* Footer Styles */
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+/* Services Page Styles */
+/* Add specific styles for the "Services" page if needed */
+
+/* About Page Styles */
+/* Add specific styles for the "About" page if needed */
+
+/* Custom Styles */
+/* Add any custom styles here */
+
+/* Media Query for Smaller Screens */
+@media (max-width: 768px) {
+    /* Example: Change text color for smaller screens */
+    body {
+        color: #333;
+    }
+
+    /* Example: Reduce header padding for smaller screens */
+    .header {
+        padding: 40px 0;
+    }
+
+    /* Example: Change background color of footer for smaller screens */
+    .footer {
+        background-color: #555;
+    }
+
+    /* Add more responsive styles as needed */
+}
